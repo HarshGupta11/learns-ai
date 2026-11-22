@@ -13,7 +13,7 @@ This kata implements a minimal subset of the MCP stdio protocol:
   notifications/*   -> fire-and-forget, no reply expected
 
 Run the demo:  python3 kata_03_mcp.py
-  It spawns itself as the server subprocess and talk s to it as a client.
+  It spawns itself as the server subprocess and talks to it as a client.
 Run just the server:  python3 kata_03_mcp.py server
   (it reads JSON-RPC from stdin, writes replies to stdout)
 
